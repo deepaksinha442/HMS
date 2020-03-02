@@ -24,6 +24,7 @@
         <div class="imgcontainer">
             <img src="IMAGES/logoHMS021.jpg" alt="image" class="image">
         </div>
+        <h1> hello </h1>
         <form action="logincode.php" method="POST">
             <div class="container">
                 <div class="row">
