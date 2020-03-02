@@ -1,0 +1,45 @@
+
+.container{
+ width: 20px;
+}
+
+.bg-primary{
+  background-color: blue;
+}
+.container {
+  padding: 16px;
+}
+div{
+  font-family: Lato;
+
+}
+
+input[type=text] , input[type=password] {
+	width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px;
+  
+}
+
+.imgcontainer {
+  text-align: center;
+  /*margin: 24px 0 12px 0;*/
+  
+}
+
+
+
+button:hover {
+  opacity: 1;
+
+}
+select{
+  border-style: inset;
+  width: 50%
+ 
+}
+

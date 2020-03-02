@@ -1,0 +1,46 @@
+
+<?php
+//include("Hms_Server.php"); // Include loginserv for checking username and password
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HMS LOGIN</title>
+	<link rel = "icon" href ="titlelogo.jpg" type = "image/x-icon"> 
+	<link rel="stylesheet" type="text/css" href="HMS CSS/LOGIN.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="nav navbar-nav navbar-right"></div>
+      
+      <a href="eappointment.html" class="btn btn-info btn-sm active" role="button" aria-pressed="true">E-APPOINTMENT!</a>
+</nav>
+<br>
+ <div class="border border-dark">
+ <div class="imgcontainer">
+   <img src="IMAGES/logoHMS01.png" alt="image" class="image">
+   </div>
+ <div class="container">
+  <div class="row">
+ <div class="col-xl-8 offset-xl-3">
+ <form method="post" action="HMS_Server.php">
+ <div class="form">
+ <label for="uname"><b>Username</b></label>
+ <input type="text" placeholder="Enter Username" name="uname" id="username"><br/>
+ <label for="psw"><b>Password</b></label>&nbsp
+ <input type="password" placeholder="Enter Password" name="psw" id="password"><br/><br>
+ <input type="submit" value="Login" />
+</div>
+ </ul>
+</nav>
+</div>
+</div>
+</div>
+</form>
+
+</body>
+</html>
